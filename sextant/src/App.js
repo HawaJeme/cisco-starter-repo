@@ -7,14 +7,8 @@ function App() {
     <div className="App">
       <Header />
       <div className="card-container">
-        <Card 
-          Name= "Public IP"
-          Num= "0"
-        />
-        <Card 
-          Name= "Latency metrics"
-          Num= "0"
-        />
+        <Card Name= "Public IPV4" ></Card>
+        <Card Name= "Public IPV6" ></Card>
       </div>
     </div>
   );
